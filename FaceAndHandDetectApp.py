@@ -6,7 +6,7 @@ from io import BytesIO
 import mediapipe as mp
 
 # Create application titile and file uploader widget
-st.title("Face Detection Application😃")
+st.title("Face And Hand Detection Application😃")
 img_file_buffer = st.file_uploader("Upload Image", type=['jpg', 'png', 'jpeg'])
 
 
